@@ -1,0 +1,88 @@
+body {
+    font: 2vh Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.error-401 {background: url('401.jpg');} /* https://www.flickr.com/photos/tambako/48871758351/ */
+.error-402 {background: url('402.jpg');} /* https://unsplash.com/photos/wDwvABbu2K0 */
+.error-403 {background: url('403.jpg');} /* https://www.flickr.com/photos/tambako/25175129620/ */
+.error-404 {background: url('404.jpg');} /* https://unsplash.com/photos/Zx_QLRU6CLk */
+.error-405 {background: url('405.jpg');} /* https://www.flickr.com/photos/wcdumonts/44759736994/in/photostream/ */
+.error-406 {background: url('406.jpg');} /* https://unsplash.com/photos/-2NXf31qalc */
+.error-407 {background: url('407.jpg');} /* https://unsplash.com/photos/g_Lb96HFkUs */
+.error-408 {background: url('408.jpg');} /* https://www.flickr.com/photos/darkroom_light/3279638551/ */
+.error-409 {background: url('409.jpg');} /* https://flic.kr/p/xAX6J5 */
+.error-410 {background: url('410.jpg');} /* https://unsplash.com/photos/8wWPGysledg*/
+.error-411 {background: url('411.jpg');} /* https://unsplash.com/photos/pk7YVlj6o2o */
+.error-412 {background: url('412.jpg');} /* https://flic.kr/p/aohLcE */
+.error-413 {background: url('413.jpg');}
+.error-414 {background: url('414.jpg');}
+.error-415 {background: url('415.jpg');}
+.error-416 {background: url('416.jpg');}
+.error-417 {background: url('417.jpg');}
+.error-418 {background: url('418.jpg');}
+.error-421 {background: url('421.jpg');}
+.error-422 {background: url('422.jpg');}
+.error-423 {background: url('423.jpg');}
+.error-424 {background: url('424.jpg');}
+.error-425 {background: url('425.jpg');}
+.error-426 {background: url('426.jpg');}
+.error-428 {background: url('428.jpg');}
+.error-429 {background: url('429.jpg');} /* https://www.flickr.com/photos/79552817@N04/43906062020/ */
+.error-431 {background: url('431.jpg');} 
+.error-451 {background: url('451.jpg');}
+.error-500 {background: url('500.jpg');}
+.error-501 {background: url('501.jpg');}
+.error-502 {background: url('502.jpg');}
+.error-503 {background: url('503.jpg');}
+.error-504 {background: url('504.jpg');}
+.error-505 {background: url('505.jpg');}
+.error-506 {background: url('506.jpg');}
+.error-507 {background: url('507.jpg');}
+
+.background {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.content {
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* box-shadow: 0px 0px 20px 5px #000; */
+    padding: 5vh 15vh;
+    /* background-color: hsla(0, 0%, 0%, 0.15); */
+}
+
+.code {
+    font-size: 20vh;
+    text-align: center;
+}
+
+.description {
+    font-size: 5vh;
+    text-align: center;
+}
+
+article {
+    position: relative;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    z-index: 2;
+}
